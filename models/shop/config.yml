@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: shop
+    database: DBT
+    schema: DBT_SCHEMA
+    tables: 
+      - name: cust
+    
