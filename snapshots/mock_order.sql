@@ -1,8 +1,8 @@
-+{% snapshot mock_order %}
+{% snapshot mock_order %}
 {% set new_schema = target.schema + '_snapshot' %}
     {{
         config(
-            target_schema='dbt_schema',
+            target_schema=new_schema,
             target_database='db1',
             unique_key='order_id',
             strategy='timestamp',
