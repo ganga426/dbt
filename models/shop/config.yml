@@ -3,6 +3,5 @@ sources:
   - name: shop
     database: DBT
     schema: DBT_SCHEMA
-    tables: 
-      - name: cust
-    
+    tables:
+      - name: customer
