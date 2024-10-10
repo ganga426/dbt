@@ -1,0 +1,9 @@
+version : 2
+sources:
+  - name: shopping_centre
+    database: DBT
+    schema: DBT_SCHEMA
+    tables:
+      - name: customer_data
+      - name: Supplier
+      - name : orders
