@@ -1,1 +1,0 @@
-select * from DB1.PUBLIC.MY_CTAS_BIG_TABLE
