@@ -1,8 +1,0 @@
-version: 2
-models:
-  - name: customer
-    columns:
-      - name: orderid
-        tests:
-          - unique:
-          - not_null
