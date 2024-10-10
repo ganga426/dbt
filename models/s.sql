@@ -1,0 +1,1 @@
+select "ganga" as name
