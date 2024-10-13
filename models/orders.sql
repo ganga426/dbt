@@ -1,0 +1,1 @@
+select * from DBT.DBT_GANGA426.MOCK_ORDERS
