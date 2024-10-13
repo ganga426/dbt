@@ -2,7 +2,7 @@
 {%set new_schema=target.schema +'_snapshot' %}
 {{
         config(
-            target_schema='new_schema',
+            target_schema='DBT_GANGA426',
             target_database='dbt',
             unique_key='order_id',
             strategy='timestamp',
