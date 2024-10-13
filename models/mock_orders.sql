@@ -1,1 +1,6 @@
-select * from DB1.DBT_SCHEMA.MOCK_ORDER
+{{
+    config(
+        materialized='table'
+    )
+}}
+select * from db1.dbt_schema.mock_orders
