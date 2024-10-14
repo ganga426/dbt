@@ -2,7 +2,7 @@
 
 {{
     config(
-        target_schema='DBT_GANGA426',
+        target_schema='DBT_snapshot',
         target_database='dbt',
         unique_key='id',
         strategy='timestamp',
@@ -10,5 +10,6 @@
     )
 }}
 
-select * from dbt.{{ target.schema}}.supplier
+--select * from dbt.{{ target.schema}}.supplier
+select * from db1.DBT_SCHEMA.supplier
 {% endsnapshot%} 
