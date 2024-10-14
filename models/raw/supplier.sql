@@ -1,0 +1,1 @@
+select * from db1.dbt_schema.supplier

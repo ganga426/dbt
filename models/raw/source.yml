@@ -7,3 +7,4 @@ sources:
       - name: customer_data
       - name: Supplier
       - name : orders
+      - name : customer_new

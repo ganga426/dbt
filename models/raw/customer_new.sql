@@ -1,0 +1,1 @@
+select * from {{ source('shopping_centre', 'customer_new') }}
